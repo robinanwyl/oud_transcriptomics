@@ -3,10 +3,16 @@
 
 **Understanding Transcriptomic Effects of Opioid Exposure Across Neurodevelopmental Stages in Organoid Models**
 
-Opioid use disorder (OUD) is a crisis that affects millions of people in the United States. Our aim is to use transcriptomics data from two donor hiPSC-derived organoid models (Kim et al 2024, Ho et al 2024) to investigate the effects of opioid exposure on gene expression during early stage development and adulthood. Differential expression analysis, functional enrichment analysis (overrepresentation analysis and gene set enrichment analysis), and transcription factor activity inference were performed on the Ho et al bulk RNA-seq dataset (GEO GSE260711) and Kim et al single-cell RNA-seq dataset (GEO GSE260711). To ensure robust comparison between bulk and single-cell transcriptomic methods, both pseudobulk and single-cell methods were used to identify differentially expressed genes in the Kim et al dataset. As a result, we discovered significance in neural and sex-specific transcription factors and pathways when each model was subject to opioid exposure.
+Opioid use disorder (OUD) is a crisis that affects millions of people in the United States. Here we analyze transcriptomics data from two human induced pluripotent stem cell (hiPSC)-derived organoid models to investigate the effects of opioid exposure on gene expression during early stage development (Kim et al 2024) and adulthood (Ho et al 2024). Differential expression analysis, functional enrichment analysis (overrepresentation analysis and gene set enrichment analysis), and transcription factor activity inference were performed on the Kim et al single-cell RNA-seq dataset (GEO GSE260711) and Ho et al bulk RNA-seq dataset (GEO GSE210206). Our findings indicate that opioid exposure may affect certain transcription factors and pathways related to brain function and sexual development, with greater disruption of normal brain activity in the developing brain and greater sex-specific effects in the adult brain. The notebooks in this repository contain figures and analysis for our presentation and written report.
 
+Packages and Methods:
+-  `scanpy` - QC, preprocessing, and differential expression analysis on Kim scRNA-seq dataset
+-  `symphonypy` - cell type annotation for Kim scRNA-seq dataset
+-  `decoupler` - generating pseudobulk representation of Kim scRNA-seq dataset, transcription factor activity inference on Kim pseudobulk and Ho bulk datasets
+-  `PyDESeq2` - differential expression analysis on Ho bulk dataset and Kim pseudobulk dataset
+-  `gseapy` - overrepresentation analysis and gene set enrichment analysis on Kim single-cell, Kim pseudobulk, and Ho bulk datasets
 
-Sources: 
+References: 
 
 Kim, H. S., Xiao, Y., Chen, X., He, S., Im, J., Willner, M. J., Finlayson, M. O., Xu, C., Zhu, H., Choi, S. J., Mosharov, E. V., Kim, H., Xu, B., & Leong, K. W. (2024). Chronic opioid treatment arrests neurodevelopment and alters synaptic activity in human midbrain organoids. Advanced Science, 11(21).
 
