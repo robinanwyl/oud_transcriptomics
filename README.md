@@ -1,5 +1,5 @@
 # oud_transcriptomics
-BENG 204 Winter 2025 Group Project
+BENG 204 Systems Medicine - Winter 2025 - Group Project
 
 Understanding Transcriptomic Effects of Opioid Exposure Across Neurodevelopmental Stages in Organoid Models
 
