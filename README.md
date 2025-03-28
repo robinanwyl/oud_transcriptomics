@@ -6,4 +6,5 @@ Opioid use disorder (OUD) is a crisis that affects millions of people in the Uni
 
 Sources: 
 Kim, H. S., Xiao, Y., Chen, X., He, S., Im, J., Willner, M. J., Finlayson, M. O., Xu, C., Zhu, H., Choi, S. J., Mosharov, E. V., Kim, H., Xu, B., & Leong, K. W. (2024). Chronic opioid treatment arrests neurodevelopment and alters synaptic activity in human midbrain organoids. Advanced Science, 11(21).
+
 Ho, M., Zhang, C., Moon, I., Zhu, X., Coombes, B. J., Biernacka, J., Skime, M., Oesterle, T. S., Karpyak, V. M., Schmidt, K., Gliske, K., Ngo, Q., Skillon, C., Seppala, M. D., Li, H., & Weinshilboum, R. M. (2024). Single cell transcriptomics reveals distinct transcriptional responses to oxycodone and buprenorphine by iPSC-derived brain organoids from patients with opioid use disorder. Molecular Psychiatry, 29(6), 1636–1646.
